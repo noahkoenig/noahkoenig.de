@@ -25,11 +25,11 @@ function loadEntryPreviews() {
 
 function concatEntryPreview(id, title, year, platform) {
     return '<a href="/archive/' + id + '.php">' +
-    '<img class="previewimg" src="/sources/archive/' +
+    '<img class="previewimg" src="/src/archive/' +
     id + '_preview.webp"></a><br/>' +
     '<a class="previewlink" href="/archive/' +
     id + '.php">' + title + '</a>' +
     '<p class="calibripreviewvia">' + year +
-    ' &bull; via <img class="previewviaicon" src="/sources/' +
+    ' &bull; via <img class="previewviaicon" src="/src/' +
     platform + '.webp"></p>';
 }

@@ -7,7 +7,7 @@
 
 		<head>
 			<title>Archive - Noah K&ouml;nig</title>
-			<link rel="shortcut icon" href="/sources/icon.png"/>
+			<link rel="shortcut icon" href="/src/icon.png"/>
 			<link rel="stylesheet/less" type="text/css" href="/css/styles.less"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -28,7 +28,7 @@
 						<div class="middlepane">
 							<div class="stickytop"  id="stickytop">
 								<a href="/archive.php#top">
-									<img class="backtotopicon" src="/sources/backtotopicon.png">
+									<img class="backtotopicon" src="/src/backtotopicon.png">
 								</a>
 							</div>
 							<div id="entry_previews"></div><br/>

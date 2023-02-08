@@ -7,7 +7,7 @@
 
 		<head>
 			<title>Noah K&ouml;nig</title>
-			<link rel="shortcut icon" href="/sources/icon.png"/>
+			<link rel="shortcut icon" href="/src/icon.png"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 			<link rel="stylesheet/less" type="text/css" href="/css/styles.less"/>
@@ -26,28 +26,28 @@
 								Hello There! I'm Noah König, an amateur<br/>
 								filmmaker, VFX artist and game developer.
 							</div>
-							<img src="/sources/postit.jpg">
+							<img src="/src/postit.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/vortex.jpg">
+							<img src="/src/vortex.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/book.jpg">
+							<img src="/src/book.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/basement.jpg">
+							<img src="/src/basement.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/machine.jpg">
+							<img src="/src/machine.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/planet.jpg">
+							<img src="/src/planet.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/index.jpg">
+							<img src="/src/ruin.jpg">
 						</div>
 						<div class="swiper-slide">
-							<img src="/sources/vulcan.jpg">
+							<img src="/src/vulcan.jpg">
 						</div>
 					</div>
 					<div class="swiper-button-next"></div>
