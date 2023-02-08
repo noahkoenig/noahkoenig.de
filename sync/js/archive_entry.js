@@ -17,9 +17,8 @@ function loadEntryVideoById(entries, siteId) {
         var entry = entries[i];
         var id = getEntryValueByTag(entry, "ID");
         if (id == siteId) {
-            var format = getEntryValueByTag(entry, "Format");
-            var link = getEntryValueByTag(entry, "Link");
-            document.getElementById("entry_video").innerHTML = concatEntryVideo(format, link);
+            document.getElementById("entry_video").innerHTML = concatEntryVideo(
+                getEntryValueByTag(entry, "Format"), getEntryValueByTag(entry, "Link"));
             break;
         }
     }
@@ -37,13 +36,10 @@ function loadEntryDataById(entries, siteId) {
         var entry = entries[i];
         var id = getEntryValueByTag(entry, "ID");
         if (id == siteId) {
-            var title = getEntryValueByTag(entry, "Title");
-            var minutes = getEntryValueByTag(entry, "Minutes");
-            var day = getEntryValueByTag(entry, "Day");
-            var month = getEntryValueByTag(entry, "Month");
-            var year = getEntryValueByTag(entry, "Year");
-            var language = getEntryValueByTag(entry, "Language");
-            document.getElementById("entry_data").innerHTML = concatEntryData(title, minutes, day, month, year, language);
+            document.getElementById("entry_data").innerHTML = concatEntryData(
+                getEntryValueByTag(entry, "Title"), getEntryValueByTag(entry, "Minutes"),
+                getEntryValueByTag(entry, "Day"), getEntryValueByTag(entry, "Month"),
+                getEntryValueByTag(entry, "Year"), getEntryValueByTag(entry, "Language"));
             break;
         }
     }

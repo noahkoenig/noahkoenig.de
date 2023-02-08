@@ -1,13 +1,13 @@
 
 				<footer>
 					<a class="socialmedia" href="https://github.com/noahkoenig" target="_blank">
-						<img class="socialmediaicon" src="/src/github.png">
+						<img class="socialmediaicon" src="/src/icons/github.png">
 					</a>
 					<a class="socialmedia" href="https://www.youtube.com/@anwofilms" target="_blank">
-						<img class="socialmediaicon" src="/src/youtube.webp">
+						<img class="socialmediaicon" src="/src/icons/youtube.webp">
 					</a>
 					<a class="socialmedia" href="https://www.instagram.com/noahkoen1g/" target="_blank">
-						<img class="socialmediaicon" src="/src/instagram.png">
+						<img class="socialmediaicon" src="/src/icons/instagram.png">
 					</a>
 					<p class="calibriheaderfooter">
 						<a class="sitenotice" href="/site_notice.php">

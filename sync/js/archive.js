@@ -10,11 +10,9 @@ function loadEntryPreviews() {
             var entryPreviews = "";
             for (var i = 0; i < entries.length; i++) {
                 var entry = entries[i];
-                var id = getEntryValueByTag(entry, "ID");
-                var title = getEntryValueByTag(entry, "Title");
-                var year = getEntryValueByTag(entry, "Year");
-                var platform = getEntryValueByTag(entry, "Platform");
-                entryPreviews += concatEntryPreview(id, title, year, platform);
+                entryPreviews += concatEntryPreview(
+                    getEntryValueByTag(entry, "ID"), getEntryValueByTag(entry, "Title"),
+                    getEntryValueByTag(entry, "Year"), getEntryValueByTag(entry, "Platform"));
             }
             document.getElementById("entry_previews").innerHTML = entryPreviews;
         }
@@ -30,6 +28,6 @@ function concatEntryPreview(id, title, year, platform) {
     '<a class="previewlink" href="/archive/' +
     id + '.php">' + title + '</a>' +
     '<p class="calibripreviewvia">' + year +
-    ' &bull; via <img class="previewviaicon" src="/src/' +
+    ' &bull; via <img class="previewviaicon" src="/src/icons/' +
     platform + '.webp"></p>';
 }

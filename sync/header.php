@@ -6,7 +6,7 @@
 						<a class="archive" href="/archive.php">Archive</a>
 					</p>
 					<div class="dropdown">
-						<a href="#top"><img class="dropbtn" id="dropbtn" src="/src/dropdownicon.png"></a>
+						<a href="#top"><img class="dropbtn" id="dropbtn" src="/src/icons/dropdown.png"></a>
 						<div class="dropdown-content" id="myDropdown">
 							<div class="dropdownnav">
 								<a class="homemobile" href="/index.php">Home</a>
